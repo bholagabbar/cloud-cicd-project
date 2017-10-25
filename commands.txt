@@ -15,3 +15,5 @@ docker run -p 5000:5000 --rm -it cicd-buzz
 
 RUN FROM DOCKER HUB VERSION:
 docker run -p5000:5000 --rm -it bholagabbar/cicd-buzz:latest
+
+
