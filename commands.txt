@@ -1,4 +1,9 @@
-RUN TESTS:
+https://github.com/bholagabbar/cloud-cicd-project
+
+INSTALL REQUIREMENTS:
+pip install -r requirements.txt
+
+RUN TESTS LOCALLY:
 python -m pytest -v tests/test_generator.py
 
-
+MAKE CHANGES
