@@ -1,0 +1,5 @@
+RUN TESTS:
+python -m pytest -v tests/test_generator.py
+
+
+
