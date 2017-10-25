@@ -7,3 +7,10 @@ RUN TESTS LOCALLY:
 python -m pytest -v tests/test_generator.py
 
 MAKE CHANGES
+
+RUN FLASK WEBAPP:
+python app.py
+
+RUN DOCKERIZED VERSION
+docker build -t cicd-buzz .
+docker run -p 5000:5000 --rm -it cicd-buzz
